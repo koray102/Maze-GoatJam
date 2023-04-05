@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
+        transform.position = new Vector3(1f,1f,1f);
         #region movement
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
